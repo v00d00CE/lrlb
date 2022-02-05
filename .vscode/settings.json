@@ -1,0 +1,40 @@
+{
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.workspace.library": [
+        "${3rd}/love2d/library"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.globals": [
+        "calbak",
+        "update",
+        "mediaManager",
+        "vec2",
+        "f",
+        "str",
+        "rng",
+        "xp",
+        "yp",
+        "add",
+        "zp",
+        "sf",
+        "Starfield",
+        "test",
+        "gamera",
+        "spdX",
+        "spdY",
+        "callbak",
+        "x",
+        "y",
+        "i",
+        "map",
+        "step",
+        "parallax",
+        "img"
+    ],
+    "Lua.diagnostics.disable": [
+        "redundant-parameter",
+        "undefined-field",
+        "unbalanced-assignments",
+        "unused-function"
+    ]
+}
